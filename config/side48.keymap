@@ -78,12 +78,12 @@
         compatible = "zmk,combos";
 
         eisuu {
-            bindings = <&none>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <25 24>;
         };
 
         kana {
-            bindings = <&none>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <28 29>;
         };
     };
