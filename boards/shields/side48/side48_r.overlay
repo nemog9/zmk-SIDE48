@@ -54,7 +54,7 @@
     status = "okay";
     device = <&trackball>;
     scroller {
-        layers = <2>;
+        layers = <1 2 3>;
         input-processors = 
                 <&zip_x_scaler 0 1>,                                //X方向の移動量を0倍にして無効化
                 <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
