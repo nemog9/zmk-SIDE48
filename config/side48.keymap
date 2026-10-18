@@ -74,6 +74,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        eisuu {
+            bindings = <&none>;
+            key-positions = <25 24>;
+        };
+
+        kana {
+            bindings = <&none>;
+            key-positions = <28 29>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
